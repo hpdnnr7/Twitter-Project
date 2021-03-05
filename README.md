@@ -1,6 +1,6 @@
 # Project 3 - *Twitter App*
 
-**Name of your app** is a basic twitter app to read your tweets.
+**Hope Dunner** is a basic twitter app to read your tweets.
 
 Time spent: **6** hours spent in total
 
