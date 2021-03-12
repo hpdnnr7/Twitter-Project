@@ -12,16 +12,33 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="center" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="wVa-64-GxZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wVa-64-GxZ" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="Hk2-0Q-59q"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="wVa-64-GxZ" secondAttribute="bottom" id="OGa-iz-jXm"/>
+                            <constraint firstItem="wVa-64-GxZ" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="Wma-ez-4Fl"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="wVa-64-GxZ" secondAttribute="trailing" id="d8H-bE-3I2"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="375" height="667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="-450.39999999999998" y="-224.4377811094453"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <image name="twitter" width="120" height="120"/>
+    </resources>
 </document>
