@@ -101,8 +101,7 @@
                                             </constraints>
                                             <state key="normal" title="Button" image="favor-icon"/>
                                             <connections>
-                                                <action selector="favButton:" destination="xHK-Oj-OSa" eventType="touchUpInside" id="x75-xx-3oG"/>
-                                                <action selector="favoriteTweet:" destination="xHK-Oj-OSa" eventType="touchUpInside" id="gb4-V7-E64"/>
+                                                <action selector="favoriteTweet:" destination="xHK-Oj-OSa" eventType="touchUpInside" id="khl-Hb-76s"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-gu-iaP" userLabel="retweetButton">
@@ -113,8 +112,7 @@
                                             </constraints>
                                             <state key="normal" title="Button" image="retweet-icon"/>
                                             <connections>
-                                                <action selector="retweet:" destination="xHK-Oj-OSa" eventType="touchUpInside" id="pZd-hT-f1E"/>
-                                                <action selector="retweetButton:" destination="xHK-Oj-OSa" eventType="touchUpInside" id="at4-XQ-L3D"/>
+                                                <action selector="retweet:" destination="xHK-Oj-OSa" eventType="touchUpInside" id="wbg-fG-hxq"/>
                                             </connections>
                                         </button>
                                     </subviews>
